@@ -1,0 +1,25 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+h1 {
+font-family: fantasy;
+font-weight: 100;
+text-align: center;
+}
+.ñ {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+.galeria {
+width: 300px;
+border: 5px solid black;
+border-radius: 25%;
+background-color: gray;
+opacity: 1;
+}
+.galeria:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
